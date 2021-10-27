@@ -1,0 +1,20 @@
+package["values"] - values pracujícího okna
+package["window"] - window pracujícího okna
+package["root_dir"] - zdrojový soubor fotek
+package["subdirs"] - list pod adresářů s fotkami
+package["list_of_images"] - list všech načtených fotek, neroztříděné
+package["orientation_checked"] - aby se nekontrolovala fotka 2x ... Pokud uživatel přesunefotku z Blurry do OK, může jí nechat zkontrolovat ještě automaticky.
+package["rotated"] - list otočených fotek -> na případnou kontrolu
+package["ok_list"] - list ostrých fotek
+package["unsure_list"] - list nejistých fotek
+package["blurry_list"] - list rozmazaných fotek
+package["blurryness_info"] - dict s napárovanými fotkami a jejich hodnotou ostrosti
+package["all_similar"] - list všech fotek, které jsou v jednom v listu v list_of_similars
+package["list_of_similars"] - (list of lists) - list listů podobných fotek
+package["working_images"] - pro main.manual_pic_sort, -> ok/unsure/blurry
+package["current_image_number"] -  main.similar_pic_choose - číslo aktuální fotky v aktuálním listu
+package["current_list_number"] - main.similar_pic_choose - číslo aktuálního listu
+package["tick_boxes"] - dict - fotka <-> zanechat/nezanechat ... True = zanechat, False = na smazání
+package["to_be_deleted"] - list fotek, které nebyly zaškrtnuty v tick_boxes
+package["chosen_from_similar"] - list fotek, které byly zaškrtnuty v tick_boxes
+package["done"] - ["similarty"], ["blurryness"] - True jestli tyto operace byly s fotkami provedeny (opakované provedení může způsobit error)
